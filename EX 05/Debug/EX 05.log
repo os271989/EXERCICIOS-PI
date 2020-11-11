@@ -1,0 +1,3 @@
+﻿  Main.c
+C:\Aulas\PI\EXERCIOS PI\EX 05\Main.c(18,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  EX 05.vcxproj -> C:\Aulas\PI\EXERCIOS PI\Debug\EX 05.exe

@@ -1,0 +1,4 @@
+﻿  Main.c
+C:\Aulas\PI\EXERCIOS PI\EX 03\Main.c(15,20): error C2143: syntax error: missing ')' before 'type'
+C:\Aulas\PI\EXERCIOS PI\EX 03\Main.c(15,12): error C2198: 'sqrt': too few arguments for call
+C:\Aulas\PI\EXERCIOS PI\EX 03\Main.c(15,37): error C2059: syntax error: ')'

@@ -1,0 +1,6 @@
+﻿  main.c
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(14,17): error C2143: syntax error: missing '{' before 'constant'
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(14,17): error C2059: syntax error: 'constant'
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(21,12): error C2065: 'Pi': undeclared identifier
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(21,23): error C2296: '^': illegal, left operand has type 'float'
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(22,20): error C2065: 'Pi': undeclared identifier
