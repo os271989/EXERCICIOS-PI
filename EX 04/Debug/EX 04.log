@@ -1,6 +1,10 @@
 ﻿  main.c
-C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(14,17): error C2143: syntax error: missing '{' before 'constant'
-C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(14,17): error C2059: syntax error: 'constant'
-C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(21,12): error C2065: 'Pi': undeclared identifier
-C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(21,23): error C2296: '^': illegal, left operand has type 'float'
-C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(22,20): error C2065: 'Pi': undeclared identifier
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(16,22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(21,25): warning C4244: 'function': conversion from 'const float' to 'const int', possible loss of data
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(21,22): error C2198: 'areaCir': too few arguments for call
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(22,35): warning C4244: 'function': conversion from 'const float' to 'const int', possible loss of data
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(22,32): error C2198: 'perimetroCir': too few arguments for call
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(31,27): warning C4028: formal parameter 1 different from declaration
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(33,13): warning C4013: 'pow' undefined; assuming extern returning int
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(33,23): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(35,32): warning C4028: formal parameter 1 different from declaration
