@@ -1,3 +1,15 @@
+/*****************************************************************//**
+ * \file   EX 01
+ * \brief  Pedir Nome Dada Nasc e Nº Tel
+ * \aluno  20844
+ * \author Oscar Araujo
+ * \date   08 November 2020
+ *********************************************************************/
+
+
+
+
+
 #include <stdio.h>
 #include<stdlib.h>
 #pragma warning (disable: 4996)

@@ -9,32 +9,35 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #pragma warning (disable: 4996)
-float areaCir(const a, float b, int c);
-float perimetroCir(const a, float b, int c);
+double areaCir(float raio);
+float perimetroCir(float raio);
 
-const float Pi = 3.14;
 float raio;
 
 int main()
 {	
-	float area = areaCir(Pi, raio);
-	float perimetro = perimetroCir(Pi, raio);
 	printf("Introduza o valor real do raio da circunferencia: \n");
 	scanf("%f", &raio);
-	printf("Com raio de %.2f, a area da Circunferencia e %.2f e o Perimetro e %.2f", raio, area, perimetro);
+	float area = areaCir(raio);
+	float perimetro = perimetroCir(raio);
+	printf("Com raio de %.2f, a area da Circunferencia e %.4f e o Perimetro e %.2f \n", raio, area, perimetro);
 	system("pause");
 
 }
 
 #pragma region (Funcoes)
-float areaCir(const float x, float y, int c)
+double areaCir(float x)
 {
-	return (pow((x*y),2));
+	const float PI = 3.14;
+	float valor = (PI * x);
+	return (pow(valor,2));
 }
-float perimetroCir(const float x, float y, int c)
+float perimetroCir(float x)
 {
-	return((x * y)*2);
+	const float PI = 3.14;
+	return((PI * x)*2);
 }
 
 #pragma endregion

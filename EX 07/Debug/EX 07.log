@@ -1,0 +1,5 @@
+﻿  Main.c
+C:\Aulas\PI\EXERCIOS PI\EX 07\Main.c(45,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Aulas\PI\EXERCIOS PI\EX 07\Main.c(46,49): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+C:\Aulas\PI\EXERCIOS PI\EX 07\Main.c(52,9): warning C4477: 'printf' : format string '%.2f' requires an argument of type 'double', but variadic argument 2 has type 'float (__cdecl *)(float,float)'
+  EX 07.vcxproj -> C:\Aulas\PI\EXERCIOS PI\Debug\EX 07.exe

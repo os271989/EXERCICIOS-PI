@@ -1,6 +1,6 @@
 /*****************************************************************//**
- * \file   Main.c
- * \brief  EX 05 - Apresentar expressoes
+ * \file   EX 05
+ * \brief  Apresentar expressoes
  * \aluno  20844
  * \author Oscar Araujo
  * \date   11 November 2020
