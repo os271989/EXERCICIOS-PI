@@ -1,0 +1,5 @@
+﻿  Funcao IMC.c
+  Main.c
+  Generating Code...
+Main.obj : error LNK2019: unresolved external symbol _calculoIMC referenced in function _main
+C:\Aulas\PI\EXERCICIOS PI\Debug\EX 11.exe : fatal error LNK1120: 1 unresolved externals

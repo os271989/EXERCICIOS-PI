@@ -1,0 +1,10 @@
+all:EX03.exe
+
+EX03.exe: EX03.o
+	gcc -o EX03.exe Main.o
+
+EX03.o: EX03.c
+	gcc -c Main.c
+
+clean:
+	rm main.o EX03.exe

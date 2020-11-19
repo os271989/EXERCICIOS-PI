@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.20" xml:lang="en-US">
+  <compound refid="_main_8c" kind="file"><name>Main.c</name>
+    <member refid="_main_8c_1abf50bbccd273ab4337dcd7a66f8b15a7" kind="function"><name>mediaPeso</name></member>
+    <member refid="_main_8c_1ab2bac85c970f206ab00003ff9c261b00" kind="function"><name>pesoArtigo</name></member>
+    <member refid="_main_8c_1a5e1871b42265b2b46d1ca38e61a83ae0" kind="function"><name>total</name></member>
+    <member refid="_main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+</doxygenindex>

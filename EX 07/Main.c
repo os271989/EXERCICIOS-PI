@@ -7,24 +7,24 @@
  * \date   November 2020
  *********************************************************************/
 
-//Bibliotecas
+///Bibliotecas
 #include <stdio.h>
 #include <locale.h>
 #include <stdlib.h>
 #pragma warning (disable: 4996)
 
-//Assinatura de funçoes
+///Assinatura de funcoes
 float mediaPeso(float a, float b);
 float pesoArtigo(float a, int b);
 float total(float a, float b);
 
-//Funçao main e programa
+///Funcao main e programa
 int main()
 {
-	//Variaveis
+	///Variaveis
 	float art1, art2, peso1, peso2, totalPeso;
 	int qtd1, qtd2,totalArtigos;
-	//setlocale(LC_ALL, "Portuguese");
+	///setlocale(LC_ALL, "Portuguese");
 
 	printf("Introduza o peso do artigo 1: \n");
 	fflush(stdin);
@@ -54,15 +54,15 @@ int main()
 }
 
 #pragma region Funcoes
-float mediaPeso(float a, float b)			//Calcula a media de pesos
+float mediaPeso(float a, float b)			///Calcula a media de pesos
 {
 	return (a / b);
 }
-float pesoArtigo(float a, int b)			//Calcula o total de peso de 1 artigo em relação a qtd comprada
+float pesoArtigo(float a, int b)			///Calcula o total de peso de 1 artigo em relacao a qtd comprada
 {
 	return (a * b);
 }
-float total(float a, float b)				//Calcula o total de um determinado item
+float total(float a, float b)				///Calcula o total de um determinado item
 {
 	return(a + b);
 }

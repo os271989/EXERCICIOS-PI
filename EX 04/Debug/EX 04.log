@@ -1,5 +1,1 @@
-﻿  main.c
-C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(23,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(33,1): warning C4305: 'initializing': truncation from 'double' to 'const float'
-C:\Aulas\PI\EXERCIOS PI\EX 04\main.c(39,1): warning C4305: 'initializing': truncation from 'double' to 'const float'
-  EX 04.vcxproj -> C:\Aulas\PI\EXERCIOS PI\Debug\EX 04.exe
+﻿  EX 04.vcxproj -> C:\Aulas\PI\EXERCICIOS PI\Debug\EX 04.exe
