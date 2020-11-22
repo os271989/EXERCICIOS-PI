@@ -18,6 +18,6 @@
 /// <param name="a"> --> Variavel que ira tomar valor da altura introduzida por utilizador
 /// <returns> --> Funcao ira devolver o resultado do calculo de IMC
 
-extern float calculoIMC(float p, float a);
+extern float calculoImc(float p, float a);
 
 #endif

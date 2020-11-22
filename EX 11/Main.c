@@ -25,7 +25,7 @@ int main()
 	scanf("%f", &peso);
 	printf("Introduza a sua altura: \n");
 	scanf("%f", &altura);
-	imc = calculoIMC(peso, altura);
+	imc = calculoImc(peso, altura);
 
 	///Estrutura de repeticao 'IF' para os diversos resultados possiveis
 
@@ -35,11 +35,11 @@ int main()
 	{
 		printf("Tendo em conta os valores introduzidos esta com peso baixo!! \n");
 	}
-	if (imc >= 18.5 || imc < 24.9)
+	if (imc >= 18.5 && imc < 24.9)
 	{
 		printf("Tendo em conta os valores introduzidos esta com excesso de peso!! \n");
 	}
-	if (imc >= 25 || imc < 29.9)
+	if (imc >= 25 && imc < 29.9)
 	{
 		printf("Tendo em conta os valores introduzidos esta com peso normal!! \n");
 	}
