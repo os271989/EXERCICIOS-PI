@@ -1,3 +1,11 @@
+/*****************************************************************//**
+ * \file       Main.c
+ * \brief      EX 03 - Calcular Area e Perimetro do triangulo
+ * \student id a20844@alunos.ipca.pt
+ * \author     OSCAR ARAUJO
+ * \date       18 November 2020
+ *********************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

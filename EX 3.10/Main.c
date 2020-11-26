@@ -1,6 +1,6 @@
 /*****************************************************************//**
  * \file       Main.c
- * \brief      10.Dados 2 valores inteiros introduzidos pelo utilizador, apresente o maior.
+ * \brief      3.10 -Dados 2 valores inteiros introduzidos pelo utilizador, apresente o maior.
  * \student id a20844@alunos.ipca.pt
  * \author     OSCAR ARAUJO
  * \date       23 November 2020

@@ -24,6 +24,7 @@
     <ProjectGuid>{be528a44-05cd-4273-9b0c-0818e244effa}</ProjectGuid>
     <RootNamespace>EX07</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>EX 07 - Valor medio de artigos</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,6 +24,7 @@
     <ProjectGuid>{43dbae42-103a-45ce-bcf9-a9db9cc5f894}</ProjectGuid>
     <RootNamespace>EX06</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>EX 06 - Conversao de dias</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

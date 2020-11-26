@@ -24,6 +24,7 @@
     <ProjectGuid>{dc74e547-b8a2-4c34-b872-fa1782fcacb8}</ProjectGuid>
     <RootNamespace>EX313</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>EX 3.13 - Inclusao de String</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

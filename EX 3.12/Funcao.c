@@ -13,7 +13,7 @@ void calcMaior(char p1 [20], char p2 [20])
 	{
 		strcopy(maior,p1);
 	}
-	else
+	if (comp < 0)
 	{
 		strcopy(maior, p2);
 	}

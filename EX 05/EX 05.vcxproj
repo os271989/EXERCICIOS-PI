@@ -24,6 +24,7 @@
     <ProjectGuid>{d7b3c3bb-c73a-4cc2-a5e8-27ed0c03bddf}</ProjectGuid>
     <RootNamespace>EX05</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>EX 05 - Apresentar operacoes</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

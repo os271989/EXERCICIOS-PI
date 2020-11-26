@@ -24,7 +24,7 @@
     <ProjectGuid>{bb37dfe1-f754-4110-b778-bc08f75918d8}</ProjectGuid>
     <RootNamespace>EX39</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>EX 3.09</ProjectName>
+    <ProjectName>EX 3.09 - Verificar se valor par</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

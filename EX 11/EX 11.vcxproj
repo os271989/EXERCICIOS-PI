@@ -24,6 +24,7 @@
     <ProjectGuid>{c59c806c-715f-4856-be58-8fae69c22c1b}</ProjectGuid>
     <RootNamespace>EX11</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>EX 11 - Calcular IMC</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

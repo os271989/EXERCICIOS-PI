@@ -1,13 +1,8 @@
 ﻿  Funcao.c
-C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Funcao.c(5,42): warning C4028: formal parameter 1 different from declaration
-C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Funcao.c(5,42): warning C4028: formal parameter 2 different from declaration
-C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Funcao.c(5,6): error C2040: 'calcMaior': 'char (char *,char *)' differs in levels of indirection from 'char *(char,char)'
-C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Funcao.c(13,13): warning C4047: 'return': 'char' differs in levels of indirection from 'char *'
-C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Funcao.c(17,14): warning C4047: 'return': 'char' differs in levels of indirection from 'char *'
+C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Funcao.c(14,10): warning C4013: 'strcopy' undefined; assuming extern returning int
   Main.c
-C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Main.c(25,9): warning C4013: 'strcopy' undefined; assuming extern returning int
-C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Main.c(25,28): warning C4047: 'function': 'char' differs in levels of indirection from 'char [20]'
-C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Main.c(25,26): warning C4024: 'calcMaior': different types for formal and actual parameter 1
-C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Main.c(25,32): warning C4047: 'function': 'char' differs in levels of indirection from 'char [20]'
-C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Main.c(25,30): warning C4024: 'calcMaior': different types for formal and actual parameter 2
+C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Main.c(26,17): warning C4013: 'strcopy' undefined; assuming extern returning int
+C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Main.c(26,27): error C2095: 'strcopy': actual parameter has type 'void': parameter 1
+C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Main.c(26,36): warning C4047: '=': 'char [20]' differs in levels of indirection from 'int'
+C:\Aulas\PI\EXERCICIOS PI\EX 3.12\Main.c(26,36): error C2106: '=': left operand must be l-value
   Generating Code...
