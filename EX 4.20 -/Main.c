@@ -33,16 +33,23 @@ int main()
 	{
 		while (colunas <= valor)
 		{
-			if (colunas == 1 || colunas == valor)
+			if (colunas == 1)
 			{
 				for (linhas = 1; linhas <= valor-1; linhas++)
 				{
-					printf("* ");
+					printf("*\n                                 ");
 				}
 				printf("\n");
 			}if (colunas > 1 && colunas < valor)
 			{
 				printf("* \n");
+			}
+			if (colunas == valor)
+			{
+				for (linhas = 1; linhas <= valor - 1; linhas++)
+				{
+					printf("* ");
+				}
 			}
 			colunas++;
 		}
