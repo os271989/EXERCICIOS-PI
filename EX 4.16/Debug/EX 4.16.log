@@ -1,2 +1,6 @@
-﻿  Funcoes.c
-  EX 4.16.vcxproj -> C:\Aulas\PI\EXERCICIOS PI\Debug\EX 4.16.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (EX 4.16.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Main.c
+D:\Aulas\PI\EXERCICIOS PI\EX 4.16\Main.c(28,26): warning C4047: 'function': 'int' differs in levels of indirection from 'int [10]'
+D:\Aulas\PI\EXERCICIOS PI\EX 4.16\Main.c(28,19): warning C4024: 'calcSoma': different types for formal and actual parameter 1
+D:\Aulas\PI\EXERCICIOS PI\EX 4.16\Main.c(29,25): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+  EX 4.16.vcxproj -> D:\Aulas\PI\EXERCICIOS PI\Debug\EX 4.16 - Pedir 10 valores e mostrar soma e media.exe

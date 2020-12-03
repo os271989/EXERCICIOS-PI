@@ -10,20 +10,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Funcoes.h"
+#include <locale.h>
 
+#define MAX 10
 int i, valor, soma = 0;
 float media;
+int valores[MAX];
+
 
 int main()
 {
+	setlocale(LC_ALL, "");
 	while (i < 10)
 	{
 		printf("Introduza o %i numero: \n", i + 1);
-		scanf("%i", &valor);
-		soma = calcSoma(valor, soma);
-		media = calcMedia(soma, 10);
+		scanf("%i", &valores[i]);
+		soma = calcSoma(valores, MAX);
+		media = calcMedia(soma, i);
 		i++;
-		valor = 0;
 
-	}printf("A soma total dos valores introduzidos e %i resultando numa media de %.2f. \n", soma, media);
+	}
+	for (i = 0; i < MAX; i++)
+	{
+		printf("%2dº Valor --> %3d\n", i+1, valores[i]);
+	}printf("TOTAL --> %-4d \n", soma);
+	printf("MEDIA --> %-4.1f \n", media);
 }

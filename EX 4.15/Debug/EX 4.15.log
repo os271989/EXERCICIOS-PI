@@ -1,4 +1,5 @@
-﻿  Main.c
-  Soma.c
-c1 : fatal error C1083: Cannot open source file: 'Soma.c': No such file or directory
-  Generating Code...
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (EX 4.15.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Main.c
+D:\Aulas\PI\EXERCICIOS PI\EX 4.15\Main.c(41,25): warning C4047: 'function': 'int' differs in levels of indirection from 'int [10]'
+D:\Aulas\PI\EXERCICIOS PI\EX 4.15\Main.c(41,18): warning C4024: 'calcSoma': different types for formal and actual parameter 1
+  EX 4.15.vcxproj -> D:\Aulas\PI\EXERCICIOS PI\Debug\EX 4.15 - Pedir 10 valores e mostrar a soma.exe

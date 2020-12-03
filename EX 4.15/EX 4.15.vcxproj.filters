@@ -18,7 +18,7 @@
     <ClCompile Include="Main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Soma.c">
+    <ClCompile Include="Funcoes.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

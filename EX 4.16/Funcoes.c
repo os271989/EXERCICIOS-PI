@@ -4,9 +4,13 @@
 int calcSoma(int x, int y);
 float calcMedia(float x, int y);
 
-int calcSoma(int x, int y)
+int calcSoma(int x [], int size)
 {
-	return(x + y);
+	int i, soma =0;
+	for (i = 0; i < size; i++)
+	{
+		soma += x[i];
+	}return soma;
 }
 
 float calcMedia(float x, int y)
