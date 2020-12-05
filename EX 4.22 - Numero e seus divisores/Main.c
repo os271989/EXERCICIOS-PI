@@ -24,7 +24,6 @@
 int main()
 {
 	int valor;
-    int divisores[50];
 	setlocale(LC_ALL, "");
 
 	printf("Introduza um valor inteiro: \n");

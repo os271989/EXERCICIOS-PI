@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.20" xml:lang="pt">
+  <compound refid="_funcao_8h" kind="file"><name>Funcao.h</name>
+    <member refid="_funcao_8h_1a4a84f20c982cd8a06b41902db9dc2153" kind="define"><name>Funcao</name></member>
+    <member refid="_funcao_8h_1a5f567d66c6c1ef3ab39ff5edc80af8f8" kind="function"><name>somaValoresB</name></member>
+  </compound>
+  <compound refid="_main_8c" kind="file"><name>Main.c</name>
+    <member refid="_main_8c_1a392fb874e547e582e9c66a08a1f23326" kind="define"><name>MAX</name></member>
+    <member refid="_main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="soma_tres_valores_8c" kind="file"><name>somaTresValores.c</name>
+    <member refid="soma_tres_valores_8c_1a5f567d66c6c1ef3ab39ff5edc80af8f8" kind="function"><name>somaValoresB</name></member>
+  </compound>
+</doxygenindex>

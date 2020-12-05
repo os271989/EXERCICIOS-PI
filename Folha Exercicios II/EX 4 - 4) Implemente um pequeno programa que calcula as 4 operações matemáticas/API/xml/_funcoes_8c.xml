@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="pt">
+  <compounddef id="_funcoes_8c" kind="file" language="C++">
+    <compoundname>Funcoes.c</compoundname>
+    <includes refid="_auxiliares_8h" local="yes">Auxiliares.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>Auxiliares.h</label>
+        <link refid="_auxiliares_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Funcoes.c</label>
+        <link refid="_funcoes_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>locale.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_funcoes_8c_1aea901afe966d03d3145f32f18be9b5a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int somaValores</definition>
+        <argsstring>()</argsstring>
+        <name>somaValores</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Funcoes.c" line="10" column="6" bodyfile="Funcoes.c" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><linebreak/>
+ \email <ulink url="mailto:a20844@alunos.ipca.pt">a20844@alunos.ipca.pt</ulink> </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Oscar Araujo </para>
+</simplesect>
+<simplesect kind="date"><para>5 December 2020 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*****************************************************************/</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_auxiliares_8h" kindref="compound">Auxiliares.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_funcoes_8c_1aea901afe966d03d3145f32f18be9b5a7" kindref="member">somaValores</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Funcoes.c"/>
+  </compounddef>
+</doxygen>

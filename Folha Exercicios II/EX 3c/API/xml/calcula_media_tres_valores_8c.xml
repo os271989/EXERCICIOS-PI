@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="pt">
+  <compounddef id="calcula_media_tres_valores_8c" kind="file" language="C++">
+    <compoundname>calculaMediaTresValores.c</compoundname>
+    <includes refid="_funcoes_8h" local="yes">Funcoes.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>Funcoes.h</label>
+        <link refid="_funcoes_8h"/>
+      </node>
+      <node id="1">
+        <label>calculaMediaTresValores.c</label>
+        <link refid="calcula_media_tres_valores_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="calcula_media_tres_valores_8c_1a0737ec75473f6fb73da42a1c4e15aae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float calculaSoma</definition>
+        <argsstring>(float x[], int size)</argsstring>
+        <name>calculaSoma</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Assinatura das funções externas criadas em outro ficheiro &apos;.c&apos;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>calculaSoma: Funcao que recebe um array de valores e devolve a soma de todos os seus elementos <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>--&gt;Recebe um Array de tipo float </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>--&gt;Recebe um valor inteiro definindo o tamanho do Array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>--&gt;Devolve a soma de todos os valores contidos no Array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="calculaMediaTresValores.c" line="19" column="7" bodyfile="calculaMediaTresValores.c" bodystart="19" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="calcula_media_tres_valores_8c_1a84c63df3cee4dc29b7704a30dcdd12f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float calculaMedia</definition>
+        <argsstring>(float x, int y)</argsstring>
+        <name>calculaMedia</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>calculaMedia: Função que recebe dois valores e calcula a média deles <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>--&gt;Recebe um valor tipo float para dividir </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>--&gt;Recebe um valor tipo int </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>--&gt;Devolve a media entre os dois valores </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="calculaMediaTresValores.c" line="38" column="7" bodyfile="calculaMediaTresValores.c" bodystart="38" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>2 Funções que calculam a soma e média de todos os valores contidos no array. \email <ulink url="mailto:a20844@alunos.ipca.pt">a20844@alunos.ipca.pt</ulink> </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Oscar Araujo </para>
+</simplesect>
+<simplesect kind="date"><para>5 December 2020 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*****************************************************************/</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/></highlight><highlight class="comment">//Inclusao<sp/>do<sp/>ficheiro<sp/>de<sp/>cabeçalho<sp/>com<sp/>as<sp/>assinaturas<sp/>para<sp/>poder<sp/>chamar<sp/>estas<sp/>funções</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_funcoes_8h" kindref="compound">Funcoes.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="calcula_media_tres_valores_8c_1a0737ec75473f6fb73da42a1c4e15aae0" kindref="member">calculaSoma</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>aux<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>size;<sp/>i++)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>+=<sp/>x[i];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>aux;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="calcula_media_tres_valores_8c_1a84c63df3cee4dc29b7704a30dcdd12f4" kindref="member">calculaMedia</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>aux<sp/>=<sp/>(x<sp/>/<sp/>y);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>aux;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="calculaMediaTresValores.c"/>
+  </compounddef>
+</doxygen>

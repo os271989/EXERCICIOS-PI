@@ -1,0 +1,4 @@
+﻿  Funcao.c
+D:\Aulas\PI\EXERCICIOS PI\Folha Exercicios II\EX 1\Funcao.c(39,15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Aulas\PI\EXERCICIOS PI\Folha Exercicios II\EX 1\Funcao.c(41,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  EX 1.vcxproj -> D:\Aulas\PI\EXERCICIOS PI\Folha Exercicios II\Debug\EX 1.exe

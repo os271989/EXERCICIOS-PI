@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="pt">
+  <compounddef id="_auxiliares_8h" kind="file" language="C++">
+    <compoundname>Auxiliares.h</compoundname>
+    <includes local="no">locale.h</includes>
+    <includedby refid="_ciclos_8c" local="yes">Ciclos.c</includedby>
+    <includedby refid="_main_8c" local="yes">Main.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>Auxiliares.h</label>
+        <link refid="_auxiliares_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>locale.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>Main.c</label>
+        <link refid="_main_8c"/>
+      </node>
+      <node id="1">
+        <label>Auxiliares.h</label>
+        <link refid="_auxiliares_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ciclos.c</label>
+        <link refid="_ciclos_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_auxiliares_8h_1aad0dfb316804f14a9b8dd5ff6463d245" prot="public" static="no">
+        <name>Funcoes</name>
+        <briefdescription>
+<para>Assinatura das funções/ciclos criados em outro ficheiro &apos;.c&apos;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Auxiliares.h" line="14" column="9" bodyfile="Auxiliares.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_auxiliares_8h_1af2bc5848a90a5919c47d4dafc437d9c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostraArray</definition>
+        <argsstring>(int x[], int size)</argsstring>
+        <name>mostraArray</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>mostraArray: Mostra todos os valores definidos no programa <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>--&gt;Recebe um Array de inteiros </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>--&gt;Recebe o tamanho do array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Auxiliares.h" line="15" column="6" bodyfile="Ciclos.c" bodystart="20" bodyend="28" declfile="Auxiliares.h" declline="15" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_auxiliares_8h_1a776f6dd548b5a42d4c6ab8ba0f4d968b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float resultado</definition>
+        <argsstring>(int x[], int size)</argsstring>
+        <name>resultado</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>resultado: Função para devolver o resultado da operação escolhida pelo utilizador <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>--&gt;Recebe um Array de inteiros </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>--&gt;Recebe o tamanho do Array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>--&gt;Devolve o resultado segundo a opção do operador escolhida </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>Switch para segundo as opções do utilizador atribuir um valor do array</para>
+<para>Switch para escolher a operação segundo a opção escolhida</para>
+        </inbodydescription>
+        <location file="Auxiliares.h" line="16" column="7" bodyfile="Ciclos.c" bodystart="37" bodyend="108" declfile="Auxiliares.h" declline="16" declcolumn="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Ficheiro de cabeçalho para interligar função main a funções/ciclos criados em outros ficheiros \email <ulink url="mailto:a20844@alunos.ipca.pt">a20844@alunos.ipca.pt</ulink>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Oscar Araujo </para>
+</simplesect>
+<simplesect kind="date"><para>5 December 2020 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*****************************************************************/</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;locale.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable:<sp/>4996)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor">#ifndef<sp/>Funcoes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_auxiliares_8h_1aad0dfb316804f14a9b8dd5ff6463d245" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Funcoes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_auxiliares_8h_1af2bc5848a90a5919c47d4dafc437d9c6" kindref="member">mostraArray</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_auxiliares_8h_1a776f6dd548b5a42d4c6ab8ba0f4d968b" kindref="member">resultado</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>mostraOperadores(char*<sp/>x,<sp/>int<sp/>size);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>Funcoes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor">#pragma<sp/>region<sp/>StructOperadores</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*typedef<sp/>struct<sp/>Operadores<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/><sp/>char<sp/>simbolo[1];</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/><sp/><sp/>char<sp/>nome[20];</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">}Operadores;</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"></highlight></codeline>
+<codeline lineno="31"><highlight class="comment"></highlight></codeline>
+<codeline lineno="32"><highlight class="comment">#pragma<sp/>endregion*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion</highlight></codeline>
+    </programlisting>
+    <location file="Auxiliares.h"/>
+  </compounddef>
+</doxygen>

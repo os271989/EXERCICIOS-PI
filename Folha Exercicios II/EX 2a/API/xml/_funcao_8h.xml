@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="pt">
+  <compounddef id="_funcao_8h" kind="file" language="C++">
+    <compoundname>Funcao.h</compoundname>
+    <includedby refid="_main_8c" local="yes">Main.c</includedby>
+    <includedby refid="soma_tres_valores_8c" local="yes">somaTresValores.c</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>Funcao.h</label>
+        <link refid="_funcao_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Main.c</label>
+        <link refid="_main_8c"/>
+      </node>
+      <node id="3">
+        <label>somaTresValores.c</label>
+        <link refid="soma_tres_valores_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_funcao_8h_1a4a84f20c982cd8a06b41902db9dc2153" prot="public" static="no">
+        <name>Funcao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Funcao.h" line="11" column="9" bodyfile="Funcao.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_funcao_8h_1a4566113345a5b7cf2cb13df09668b3a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float somaValoresA</definition>
+        <argsstring>(float x[], int size)</argsstring>
+        <name>somaValoresA</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Assinatura de função soma para implementar em função main. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Assinatura de função soma para implementar em função main.</para>
+<para>somaValoresA: Recebe um array de valores flutuantes e soma todos os elementos desse array <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>--&gt;Recebe o Array de valores flutuantes </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>--&gt;Recebe o tamanho do Array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>--&gt;Devolve a soma to tipo FLOAT de todos os elementos do Array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Funcao.h" line="14" column="7" bodyfile="somaTresValores.c" bodystart="20" bodyend="28" declfile="Funcao.h" declline="14" declcolumn="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Ficheiro de cabeçalho para interligar funçao main com funções em outros ficheiros \email <ulink url="mailto:a20844@alunos.ipca.pt">a20844@alunos.ipca.pt</ulink>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Oscar Araujo </para>
+</simplesect>
+<simplesect kind="date"><para>4 December 2020 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*****************************************************************/</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Funcao</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_funcao_8h_1a4a84f20c982cd8a06b41902db9dc2153" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Funcao</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_funcao_8h_1a4566113345a5b7cf2cb13df09668b3a4" kindref="member">somaValoresA</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>!Funcao</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Funcao.h"/>
+  </compounddef>
+</doxygen>

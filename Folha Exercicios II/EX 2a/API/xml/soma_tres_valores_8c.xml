@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="pt">
+  <compounddef id="soma_tres_valores_8c" kind="file" language="C++">
+    <compoundname>somaTresValores.c</compoundname>
+    <includes refid="_funcao_8h" local="yes">Funcao.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>Funcao.h</label>
+        <link refid="_funcao_8h"/>
+      </node>
+      <node id="1">
+        <label>somaTresValores.c</label>
+        <link refid="soma_tres_valores_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="soma_tres_valores_8c_1a4566113345a5b7cf2cb13df09668b3a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float somaValoresA</definition>
+        <argsstring>(float x[], int size)</argsstring>
+        <name>somaValoresA</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Declaração de ficheiro de cabeçalho criado para funçoes deste ficheiro poderem ser chamadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Assinatura de função soma para implementar em função main.</para>
+<para>somaValoresA: Recebe um array de valores flutuantes e soma todos os elementos desse array <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>--&gt;Recebe o Array de valores flutuantes </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>--&gt;Recebe o tamanho do Array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>--&gt;Devolve a soma to tipo FLOAT de todos os elementos do Array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="somaTresValores.c" line="20" column="7" bodyfile="somaTresValores.c" bodystart="20" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Funcao que recebe um array de valores e procede a soma de todos eles \email <ulink url="mailto:a20844@alunos.ipca.pt">a20844@alunos.ipca.pt</ulink>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Oscar Araujo </para>
+</simplesect>
+<simplesect kind="date"><para>4 December 2020 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*****************************************************************/</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_funcao_8h" kindref="compound">Funcao.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="soma_tres_valores_8c_1a4566113345a5b7cf2cb13df09668b3a4" kindref="member">somaValoresA</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>total<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>size;<sp/>i++)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>total<sp/>+=<sp/>x[i];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>total;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="somaTresValores.c"/>
+  </compounddef>
+</doxygen>
