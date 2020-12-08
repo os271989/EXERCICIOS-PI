@@ -1,0 +1,4 @@
+﻿  Tabuada.c
+D:\Aulas\PI\EXERCICIOS PI\EXERCICIOS ONLINE\EX 10 -\Tabuada.c(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Aulas\PI\EXERCICIOS PI\EXERCICIOS ONLINE\EX 10 -\Tabuada.c(16,9): warning C4013: 'printf' undefined; assuming extern returning int
+  EX 10 -.vcxproj -> D:\Aulas\PI\EXERCICIOS PI\EXERCICIOS ONLINE\Debug\EX 10 - 'WHILE'-Ler um número e mostrar a sua tabuada.exe

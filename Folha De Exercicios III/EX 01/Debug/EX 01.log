@@ -1,0 +1,17 @@
+﻿  Funcoes.c
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Funcoes.c(24,54): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Funcoes.c(24,53): warning C4024: 'strlen': different types for formal and actual parameter 1
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Funcoes.c(24,65): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Funcoes.c(24,64): warning C4024: 'strlen': different types for formal and actual parameter 1
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Funcoes.c(25,17): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Funcoes.c(25,16): warning C4024: 'strlen': different types for formal and actual parameter 1
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Funcoes.c(25,29): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Funcoes.c(25,28): warning C4024: 'strlen': different types for formal and actual parameter 1
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Funcoes.c(27,13): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Funcoes.c(31,13): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Funcoes.c(14,6): warning C4101: 'c1': unreferenced local variable
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Funcoes.c(13,6): warning C4101: 'i': unreferenced local variable
+  Main.c
+D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\EX 01\Main.c(23,15): warning C4013: 'escolhaFuncao' undefined; assuming extern returning int
+  Generating Code...
+  EX 01.vcxproj -> D:\Aulas\PI\EXERCICIOS PI\Folha De Exercicios III\Debug\EX 01.exe

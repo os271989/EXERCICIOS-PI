@@ -1,0 +1,8 @@
+﻿  Funcoes.c
+D:\Aulas\PI\EXERCICIOS PI\EXERCICIOS ONLINE\EX 12 - Habitantes da região\Funcoes.c(64,9): warning C4013: 'strcopy' undefined; assuming extern returning int
+D:\Aulas\PI\EXERCICIOS PI\EXERCICIOS ONLINE\EX 12 - Habitantes da região\Funcoes.c(98,23): warning C4047: '==': 'char [2]' differs in levels of indirection from 'int'
+  Main.c
+  Generating Code...
+D:\Aulas\PI\EXERCICIOS PI\EXERCICIOS ONLINE\EX 12 - Habitantes da região\Main.c(21): error C4700: uninitialized local variable 'i' used
+D:\Aulas\PI\EXERCICIOS PI\EXERCICIOS ONLINE\EX 12 - Habitantes da região\Funcoes.c(31): warning C4716: 'mostraHabitantes': must return a value
+D:\Aulas\PI\EXERCICIOS PI\EXERCICIOS ONLINE\EX 12 - Habitantes da região\Funcoes.c(96): error C4700: uninitialized local variable 'i' used

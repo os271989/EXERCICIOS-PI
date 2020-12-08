@@ -1,3 +1,7 @@
-﻿  Main.c
-C:\Aulas\PI\EXERCICIOS PI\EX 4.14\Main.c(19,8): warning C4477: 'scanf' : format string '%i' requires an argument of type 'int *', but variadic argument 1 has type 'int'
-  EX 4.14.vcxproj -> C:\Aulas\PI\EXERCICIOS PI\Debug\EX 4.14.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (EX 4.14.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Funcao Tabuada.c
+D:\Aulas\PI\EXERCICIOS PI\EX 4.14\Funcao Tabuada.c(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Main.c
+D:\Aulas\PI\EXERCICIOS PI\EX 4.14\Main.c(19,8): warning C4477: 'scanf' : format string '%i' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+  Generating Code...
+  EX 4.14.vcxproj -> D:\Aulas\PI\EXERCICIOS PI\Debug\EX 4.14 - Pedir Valor Inteiro e apresentar Tabuada.exe
